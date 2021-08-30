@@ -12,13 +12,13 @@ public class Swap   
 
         System.out.println("Enter the value of x and y");  
 
-        Scanner sc = new Scanner(System.in); 
+        Scanner input = new Scanner(System.in); 
 
-        int x = sc.nextInt();  
+        int x = input.nextInt();  
 
-        int y = sc.nextInt();  
+        int y = input.nextInt();  
 
-        System.out.println("before swapping numbers: "+x +" "+ y);  
+        System.out.println("Before swapping numbers: "+x +" "+ y);  
 
         x = x + y;   
 
